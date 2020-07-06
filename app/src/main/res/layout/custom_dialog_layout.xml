@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/field_bg_new"
+    android:padding="@dimen/_5sdp">
+
+    <ImageView
+        android:id="@+id/img_news"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/light_grey"
+        android:gravity="center"
+        android:padding="@dimen/_15sdp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_news"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="TEXTO"
+        android:textColor="#ff000000"
+        android:textSize="@dimen/font_size_normal" />
+
+    <ScrollView
+        android:id="@+id/ly_news_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_below="@id/tv_news_title">
+
+        <TextView
+            android:id="@+id/tv_news_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:gravity="start"
+            android:text="متن پیام"
+            android:textSize="@dimen/font_size_small" />
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ly_news_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_green_new"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="با خبر شدم"
+        android:textColor="#ffffffff" />
+</RelativeLayout>

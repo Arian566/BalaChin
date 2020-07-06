@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PresetValueButtonAni">
+        <attr name="presetButtonValueTextAni" format="integer"/>
+        <attr name="presetButtonUnitTextAni" format="string"/>
+        <attr name="presetButtonValueTextColorAni" format="color"/>
+        <attr name="presetButtonPressedTextColorAni" format="color"/>
+        <attr name="presetButtonUnitTextColorAni" format="color"/>
+    </declare-styleable>
+
+</resources>

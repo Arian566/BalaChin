@@ -1,0 +1,21 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/overshoot_interpolator">
+
+    <translate
+        android:duration="1000"
+        android:fromXDelta="0%p"
+        android:repeatMode="reverse"
+        android:startOffset="50"
+        android:repeatCount="infinite"
+        android:toXDelta="2%p" />
+    <translate
+        android:duration="1000"
+        android:fromXDelta="0%p"
+        android:repeatMode="reverse"
+        android:startOffset="1050"
+        android:repeatCount="infinite"
+        android:toXDelta="-2%p" />
+
+
+</set>

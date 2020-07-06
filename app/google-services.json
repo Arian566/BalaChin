@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851856840789",
+    "firebase_url": "https://shaaf-release.firebaseio.com",
+    "project_id": "shaaf-release",
+    "storage_bucket": "shaaf-release.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851856840789:android:ab18f020687bb31eaa9cdc",
+        "android_client_info": {
+          "package_name": "agency.arian.shaafcharity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851856840789-36sjidgpeq1movou7kqpf37ovgb2ut79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChWiJX8D7-Hx_yv5Av6WgPujbdrkXtq14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851856840789-36sjidgpeq1movou7kqpf37ovgb2ut79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

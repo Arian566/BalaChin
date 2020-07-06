@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NEW.LoginActivity_NEW">
+
+
+    <ImageView
+        android:id="@+id/img_header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="3"
+        android:scaleY="2.5"
+        android:src="@drawable/ic_app_08" />
+
+    <ImageView
+        android:id="@+id/img_header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="3"
+        android:scaleY="2.5"
+        android:src="@drawable/ic_app_09" />
+
+    <ImageView
+        android:id="@+id/img_child"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/child_height"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/img_child" />
+
+    <ImageView
+        android:id="@+id/img_shaaf_logo_login"
+        android:layout_width="@dimen/shaaf_logo_dimen"
+        android:layout_height="@dimen/shaaf_logo_dimen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/shaaf_logo_top_margin"
+        android:src="@drawable/ic_shaaf_logo" />
+
+
+    <EditText
+        android:id="@+id/edt_mobile"
+        android:layout_width="@dimen/edt_width"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@+id/img_shaaf_logo_login"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/field_bg_new"
+        android:gravity="center"
+        android:hint="َشماره همراه خود را وارد کنید"
+        android:inputType="phone"
+        android:lines="1"
+        android:maxEms="11"
+        android:maxLength="11"
+        android:textSize="@dimen/font_size_normal" />
+
+
+    <EditText
+        android:id="@+id/edt_verify_code"
+        android:layout_width="@dimen/edt_width"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@+id/edt_mobile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/field_bg_new"
+        android:enabled="false"
+        android:gravity="center"
+        android:hint="@string/code"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="4"
+        android:textSize="@dimen/font_size_normal"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_countDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_verify_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="@string/timer_sample"
+        android:textSize="@dimen/font_size_small"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_wrongMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_countDown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/shomare_eshtebah"
+        android:textColor="@color/shaafRed"
+        android:textSize="@dimen/font_size_small"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_wrongMobile"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pb_login_new"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/btn_large_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/btn_bottom_margin"
+        android:background="@drawable/button_new"
+        android:clickable="true"
+        android:enabled="false"
+        android:fontFamily="@font/iranian_sans_bold"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/darkhast_code"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal" />
+
+
+</RelativeLayout>

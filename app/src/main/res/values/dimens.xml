@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+<!--    <dimen name="padding_side_title_text">5dp</dimen>-->
+<!--    <dimen name="padding_top_title_text">10dp</dimen>-->
+<!--    <dimen name="text_size_time_preset_unit">14sp</dimen>-->
+
+
+<!--    <dimen name="font_size_normal">25sp</dimen>-->
+<!--    <dimen name="font_size_small">18sp</dimen>-->
+
+
+<!--    <dimen name="shaaf_logo_dimen">170dp</dimen>-->
+<!--    <dimen name="shaaf_logo_top_margin">130dp</dimen>-->
+<!--    <dimen name="child_height">230dp</dimen>-->
+<!--    <dimen name="img_header_scale_x">3</dimen>-->
+<!--    <dimen name="corner_items_margin">24dp</dimen>-->
+<!--    <dimen name="layout_bottom_margin">25dp</dimen>-->
+<!--    <dimen name="edt_width">250dp</dimen>-->
+<!--    <dimen name="btn_ic_dimen">24dp</dimen>-->
+<!--    <dimen name="edt_height">64dp</dimen>-->
+<!--    <dimen name="overall_margin">5dp</dimen>-->
+<!--    <dimen name="edt_bottom_margin">90dp</dimen>-->
+<!--    <dimen name="btn_small_width">128dp</dimen>-->
+<!--    <dimen name="btn_large_width">256dp</dimen>-->
+<!--    <dimen name="btn_small_height">56dp</dimen>-->
+<!--    <dimen name="btn_large_height">56dp</dimen>-->
+<!--    <dimen name="btn_bottom_margin">32dp</dimen>-->
+<!--    <dimen name="btn_ic_dimen_large">48dp</dimen>-->
+<!--    <dimen name="toman_right_margin">15dp</dimen>-->
+<!--    <dimen name="img_header_large_top_margin">80dp</dimen>-->
+<!--    <dimen name="img_header2_large_scale">4</dimen>-->
+<!--    <dimen name="img_header1_large_scale">3</dimen>-->
+<!--    <dimen name="child_height_large">340dp</dimen>-->
+<!--    <dimen name="shaaf_logo_top_margin_large">230dp</dimen>-->
+<!--    <dimen name="noe_sadaqe_main_top_margin">45dp</dimen>-->
+<!--    <dimen name="noe_sadaqe_value_left_margin">25dp</dimen>-->
+<!--    <dimen name="mablaqe_sadaqe_main_top_margin">30dp</dimen>-->
+<!--    <dimen name="middle_btn_bottom_margin">240dp</dimen>-->
+<!--    <dimen name="corner_items_bottom_margin">48dp</dimen>-->
+<!--    <dimen name="radio_group_height">64dp</dimen>-->
+
+<!--    <item name="img_header_scale_y" type="dimen" format="float">2.5</item>-->
+<!--</resources>-->
+
+
+<resources>
+    <dimen name="padding_side_title_text">@dimen/_5sdp</dimen>
+    <dimen name="padding_top_title_text">@dimen/_5sdp</dimen>
+    <dimen name="text_size_time_preset_unit">@dimen/_12ssp</dimen>
+
+
+    <dimen name="font_size_normal">@dimen/_16ssp</dimen>
+    <dimen name="font_size_small">@dimen/_14ssp</dimen>
+    <dimen name="font_size_micro">@dimen/_10ssp</dimen>
+
+
+    <dimen name="shaaf_logo_dimen">@dimen/_120sdp</dimen>
+    <dimen name="shaaf_logo_small_dimen">@dimen/_100sdp</dimen>
+    <dimen name="shaaf_logo_top_margin">@dimen/_100sdp</dimen>
+
+
+    <dimen name="child_height">@dimen/_180sdp</dimen>
+    <dimen name="img_header_scale_x">3</dimen>
+    <dimen name="corner_items_margin">@dimen/_24sdp</dimen>
+    <dimen name="layout_bottom_margin">@dimen/_25sdp</dimen>
+    <dimen name="edt_width">@dimen/_250sdp</dimen>
+    <dimen name="btn_ic_dimen">@dimen/_24sdp</dimen>
+    <dimen name="edt_height">@dimen/_48sdp</dimen>
+    <dimen name="overall_margin">@dimen/_5sdp</dimen>
+    <dimen name="edt_bottom_margin">@dimen/_90sdp</dimen>
+    <dimen name="btn_small_width">@dimen/_128sdp</dimen>
+    <dimen name="btn_large_width">@dimen/_256sdp</dimen>
+    <dimen name="btn_small_height">@dimen/_48sdp</dimen>
+    <dimen name="btn_large_height">@dimen/_48sdp</dimen>
+    <dimen name="btn_bottom_margin">@dimen/_32sdp</dimen>
+    <dimen name="btn_ic_dimen_large">@dimen/_32sdp</dimen>
+    <dimen name="toman_right_margin">@dimen/_15sdp</dimen>
+    <dimen name="img_header_large_top_margin">@dimen/_80sdp</dimen>
+    <dimen name="img_header2_large_scale">4</dimen>
+    <dimen name="img_header1_large_scale">3</dimen>
+    <dimen name="child_height_large">@dimen/_260sdp</dimen>
+    <dimen name="shaaf_logo_top_margin_large">@dimen/_190sdp</dimen>
+    <dimen name="noe_sadaqe_main_top_margin">@dimen/_45sdp</dimen>
+    <dimen name="noe_sadaqe_value_left_margin">@dimen/_25sdp</dimen>
+    <dimen name="mablaqe_sadaqe_main_top_margin">@dimen/_30sdp</dimen>
+    <dimen name="middle_btn_bottom_margin">@dimen/_150sdp</dimen>
+    <dimen name="corner_items_bottom_margin">@dimen/_48sdp</dimen>
+    <dimen name="radio_group_height">@dimen/_64sdp</dimen>
+
+
+    <dimen name="about_lines_space">@dimen/_5sdp</dimen>
+
+
+
+    <item name="img_header_scale_y" type="dimen" format="float">2.5</item>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/layout_bottom_margin"
+    android:orientation="vertical"
+    tools:context=".NEW.ChekhabarActivity">
+
+    <ProgressBar
+        android:translationZ="1dp"
+        android:id="@+id/pb_chekhabr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tv_chekhabar"
+        android:layout_margin="@dimen/corner_items_margin"
+        android:text="@string/chekhabar"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal"
+        android:translationZ="1dp" />
+
+    <Button
+        android:id="@+id/btn_back_chekhabar"
+        android:layout_width="@dimen/btn_ic_dimen"
+        android:layout_height="@dimen/btn_ic_dimen"
+        android:layout_margin="@dimen/corner_items_margin"
+        android:background="@drawable/ic_left_chevron"
+        android:backgroundTint="@color/Text"
+        android:textColor="@color/Text" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_chekhabar"
+     android:layout_marginRight="@dimen/corner_items_margin"
+        android:text="@string/tamas_ba_kheirie"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal"
+        android:translationZ="1dp" />
+
+    <Button
+        android:id="@+id/btn_tamas_chekhabar"
+        android:layout_width="@dimen/btn_ic_dimen"
+        android:layout_height="@dimen/btn_ic_dimen"
+        android:layout_marginLeft="@dimen/corner_items_margin"
+        android:layout_below="@id/btn_back_chekhabar"
+        android:background="@drawable/ic_call_new"
+        android:backgroundTint="@color/Text"
+        android:textColor="@color/Text" />
+
+    <ImageView
+        android:id="@+id/img_header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="@dimen/img_header_scale_x"
+        android:scaleY="@dimen/img_header_scale_y"
+        android:src="@drawable/ic_app_08" />
+
+    <ImageView
+        android:id="@+id/img_header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="@dimen/img_header_scale_x"
+        android:scaleY="@dimen/img_header_scale_y"
+        android:src="@drawable/ic_app_09" />
+
+    <ImageView
+        android:id="@+id/img_child"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/child_height"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/img_child" />
+
+    <ImageView
+        android:id="@+id/img_shaaf_logo_tamas_ba_ma"
+        android:layout_width="@dimen/shaaf_logo_small_dimen"
+        android:layout_height="@dimen/shaaf_logo_small_dimen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/shaaf_logo_top_margin"
+        android:src="@drawable/ic_shaaf_logo" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_akhbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_shaaf_logo_tamas_ba_ma"
+        android:layout_margin="@dimen/_15sdp" />
+
+
+</RelativeLayout>

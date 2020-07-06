@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/layout_bottom_margin"
+    android:orientation="vertical"
+    tools:context=".NEW.ChargeActivityNew">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/corner_items_margin"
+        android:text="@string/kife_pol"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal"
+        android:translationZ="1dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_back_charge"
+        android:layout_width="@dimen/btn_ic_dimen"
+        android:layout_height="@dimen/btn_ic_dimen"
+        android:layout_margin="@dimen/corner_items_margin"
+        android:background="@drawable/ic_left_chevron"
+        android:backgroundTint="@color/Text"
+        android:textColor="@color/Text" />
+
+    <ImageView
+        android:id="@+id/img_header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="@dimen/img_header_scale_x"
+        android:scaleY="@dimen/img_header_scale_y"
+        android:src="@drawable/ic_app_08" />
+
+    <ImageView
+        android:id="@+id/img_header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="@dimen/img_header_scale_x"
+        android:scaleY="@dimen/img_header_scale_y"
+        android:src="@drawable/ic_app_09" />
+
+    <ImageView
+        android:id="@+id/img_child"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/child_height"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/img_child" />
+
+    <ImageView
+        android:id="@+id/img_shaaf_logo_zamandar_charge"
+        android:layout_width="@dimen/shaaf_logo_small_dimen"
+        android:layout_height="@dimen/shaaf_logo_small_dimen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/shaaf_logo_top_margin"
+        android:src="@drawable/ic_shaaf_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_wallet_zamandar_charge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:text="موجودی"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/font_size_small"
+        android:translationZ="2dp" />
+
+
+    <TextView
+        android:id="@+id/tv_wallet_zamandar_charge"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_below="@id/img_shaaf_logo_zamandar_charge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/overall_margin"
+        android:background="@drawable/bg_circle_shabe"
+        android:gravity="center"
+        android:text="@string/sample_wallet_value"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_normal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_wallet_zamandar_charge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:text="@string/money_unit"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/font_size_small"
+        android:translationZ="2dp" />
+
+
+    <agency.arian.shaafcharity.Radio.PresetRadioGroup
+        android:id="@+id/rbg_money_charge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_wallet_zamandar_charge"
+        android:layout_marginStart="@dimen/overall_margin"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/overall_margin"
+        android:layout_marginBottom="@dimen/overall_margin"
+        android:background="@drawable/field_bg_new"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <agency.arian.shaafcharity.Radio.PresetValueButton
+            android:id="@+id/rb_money_10_charge"
+            style="@style/PresetLayoutButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:presetButtonUnitText="@string/money_unit"
+            app:presetButtonValueText="@string/money_suggestion_4" />
+
+        <agency.arian.shaafcharity.Radio.PresetValueButton
+            android:id="@+id/rb_money_5_charge"
+            style="@style/PresetLayoutButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:presetButtonUnitText="@string/money_unit"
+            app:presetButtonValueText="@string/money_suggestion_3" />
+
+        <agency.arian.shaafcharity.Radio.PresetValueButton
+            android:id="@+id/rb_money_2_charge"
+            style="@style/PresetLayoutButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:presetButtonUnitText="@string/money_unit"
+            app:presetButtonValueText="@string/money_suggestion_2" />
+
+
+        <agency.arian.shaafcharity.Radio.PresetValueButton
+            android:id="@+id/rb_money_1_charge"
+            style="@style/PresetLayoutButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:presetButtonUnitText="@string/money_unit"
+            app:presetButtonValueText="@string/money_suggestion_1" />
+    </agency.arian.shaafcharity.Radio.PresetRadioGroup>
+
+
+    <EditText
+        android:id="@+id/edt_mablagh_delkhah_zamandar_charge"
+        android:layout_width="@dimen/edt_width"
+        android:layout_height="@dimen/edt_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_68sdp"
+        android:background="@drawable/field_bg_new"
+        android:gravity="center"
+        android:hint="@string/mablaqe_delkhah"
+        android:inputType="number"
+        android:maxLength="9"
+        android:textSize="@dimen/font_size_normal" />
+
+    <Button
+        android:id="@+id/btn_pay_zamandar_charge"
+        android:layout_width="@dimen/btn_large_width"
+        android:layout_height="@dimen/btn_large_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@drawable/button_new"
+        android:clickable="true"
+        android:fontFamily="@font/iranian_sans_bold"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:text="@string/pardakht"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal" />
+
+    <ProgressBar
+        android:id="@+id/pb_login_new_charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

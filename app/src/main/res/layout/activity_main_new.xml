@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NEW.LoginActivity_NEW">
+
+    <include
+        android:id="@+id/ly_pop_up"
+        layout="@layout/ani_pop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_charge_new"
+        android:layout_width="@dimen/btn_ic_dimen_large"
+        android:layout_height="@dimen/btn_ic_dimen_large"
+        android:layout_margin="@dimen/corner_items_margin"
+        android:background="@drawable/ic_plus"
+        android:clickable="true"
+        android:fontFamily="@font/iranian_sans_bold"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_toman_wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_wallet_new"
+        android:layout_marginRight="@dimen/toman_right_margin"
+        android:layout_toLeftOf="@id/tv_wallet_new"
+        android:gravity="center"
+        android:text="تومان"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font_size_small" />
+
+    <!--*****************WALLET***************-->
+    <TextView
+        android:id="@+id/tv_wallet_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btn_charge_new"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/corner_items_margin"
+        android:layout_marginRight="@dimen/corner_items_margin"
+        android:gravity="left"
+        android:text="@string/sample_wallet_value"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font_size_normal"
+        android:translationZ="1dp" />
+
+    <ImageView
+        android:id="@+id/img_header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/img_header_large_top_margin"
+        android:scaleX="@dimen/img_header2_large_scale"
+        android:scaleY="@dimen/img_header2_large_scale"
+        android:src="@drawable/ic_app_11"
+        android:translationZ="-1dp" />
+
+    <ImageView
+        android:id="@+id/img_header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/img_header_large_top_margin"
+        android:scaleX="@dimen/img_header1_large_scale"
+        android:scaleY="@dimen/img_header1_large_scale"
+        android:src="@drawable/ic_app_09"
+        android:translationZ="-1dp" />
+
+    <ImageView
+        android:id="@+id/img_child"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/child_height_large"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/girl_large"
+        android:translationZ="-1dp" />
+
+    <ImageView
+        android:id="@+id/img_shaaf_logo_new"
+        android:layout_width="@dimen/shaaf_logo_dimen"
+        android:layout_height="@dimen/shaaf_logo_dimen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/shaaf_logo_top_margin_large"
+        android:src="@drawable/ic_shaaf_logo" />
+    <!--*****************Day***************-->
+
+    <TextView
+        android:id="@+id/tv_noe_sadaqe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_wallet_new"
+        android:layout_alignEnd="@id/tv_wallet_new"
+        android:layout_marginTop="@dimen/noe_sadaqe_main_top_margin"
+        android:text="@string/noe_sadaqe"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal" />
+
+
+    <Spinner
+        android:id="@+id/sp_Interval_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_charge_new"
+        android:layout_alignBaseline="@id/tv_noe_sadaqe"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_interval_day_new_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_charge_new"
+        android:layout_alignBaseline="@id/tv_noe_sadaqe"
+        android:layout_marginStart="@dimen/noe_sadaqe_value_left_margin"
+        android:gravity="center"
+        android:text="@string/sample_null"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_normal" />
+
+    <!--******************Money Value**************-->
+
+    <TextView
+        android:id="@+id/tv_interval_money_text_new"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@id/sp_Interval_day"
+        android:layout_alignEnd="@id/tv_wallet_new"
+        android:layout_marginTop="@dimen/mablaqe_sadaqe_main_top_margin"
+        android:text="@string/mablaqe_sadaqe"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal" />
+
+    <TextView
+        android:id="@+id/tv_toman_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_interval_money_text_new"
+        android:layout_marginStart="@dimen/noe_sadaqe_value_left_margin"
+        android:layout_marginEnd="@dimen/toman_right_margin"
+        android:gravity="center"
+        android:text="@string/money_unit"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font_size_normal" />
+
+    <TextView
+        android:id="@+id/tv_interval_money_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_toman_value"
+        android:layout_toEndOf="@id/tv_toman_value"
+        android:gravity="start"
+        android:text="18000"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <!--*******************Btn 2*************-->
+
+    <Button
+        android:id="@+id/btn_Ani"
+        android:layout_width="@dimen/btn_small_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/noe_sadaqe_value_left_margin"
+        android:layout_marginBottom="@dimen/middle_btn_bottom_margin"
+        android:background="@drawable/button_new"
+        android:fontFamily="@font/iranian_sans_bold"
+        android:text="@string/ani"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal" />
+
+    <Button
+        android:id="@+id/btn_zamandar"
+        android:layout_width="@dimen/btn_small_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/noe_sadaqe_value_left_margin"
+        android:layout_marginBottom="@dimen/middle_btn_bottom_margin"
+        android:background="@drawable/button_green_new"
+        android:fontFamily="@font/iranian_sans_bold"
+        android:text="@string/zaman_dar"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_normal" />
+
+    <!--*******************Button bottom*************-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/corner_items_bottom_margin"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/btn_logout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="@dimen/btn_ic_dimen"
+                android:layout_height="@dimen/btn_ic_dimen"
+                android:background="@drawable/ic_logout" />
+
+            <TextView
+                android:id="@+id/tv_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="@string/khoroj"
+                android:textSize="@dimen/font_size_small" />
+
+
+        </LinearLayout>
+        <!---->
+        <LinearLayout
+            android:id="@+id/btn_call_app"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="@dimen/btn_ic_dimen"
+                android:layout_height="@dimen/btn_ic_dimen"
+                android:background="@drawable/ic_logo_app" />
+
+            <TextView
+                android:id="@+id/tv_niro_gerefte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="@string/tamas_ba_ma"
+                android:textSize="@dimen/font_size_small" />
+
+        </LinearLayout>
+        <!---->
+        <LinearLayout
+            android:id="@+id/btn_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="@dimen/btn_ic_dimen"
+                android:layout_height="@dimen/btn_ic_dimen"
+                android:background="@drawable/ic_news" />
+
+            <TextView
+                android:id="@+id/tv_callus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="@string/chekhabar"
+                android:textSize="@dimen/font_size_small" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

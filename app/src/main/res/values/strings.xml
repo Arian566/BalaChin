@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">بَلاچین</string>
+
+    <string name="title_time_preset_30">30</string>
+    <string name="unit_seconds">Seconds</string>
+    <string name="title_time_preset_120">120</string>
+    <string name="title_time_preset_60">60</string>
+    <string name="title_settings_set_duration">Set duration</string>
+    <string name="every_day">هر روز</string>
+    <string name="every_day_en">Every Day</string>
+    <string name="every_2_day">هر 2 روز</string>
+    <string name="every_2_day_en">Every 2 Days</string>
+    <string name="every_week">هر هفته</string>
+    <string name="every_week_en">Every Week</string>
+    <string name="every_month">هر ماه</string>
+    <string name="online">آنلاین</string>
+    <string name="wallet">کیف پول</string>
+    <string name="every_month_en">Every Month</string>
+    <string name="money_unit">تومان</string>
+    <string name="money_suggestion_1">1,000</string>
+    <string name="money_suggestion_2">2,000</string>
+    <string name="money_suggestion_3">5,000</string>
+    <string name="money_suggestion_4">10,000</string>
+    <string name="zamandar">زمان دار</string>
+    <string name="sms">اعلان پیامکی</string>
+    <string name="sample_wallet_value">20,000,000</string>
+    <string name="mablaq_delkhah">مبلغ دلخواه</string>
+    <string name="pardakht">پرداخت</string>
+    <string name="noe_sadaqe">نوع صدقه</string>
+    <string name="ani">صدقه آنی</string>
+    <string name="zaman_dar">زمان دار</string>
+    <string name="mablaqe_sadaqe">مبلغ صدقه</string>
+    <string name="sample_null">-----</string>
+    <string name="tamas_ba_ma">بَلاچین</string>
+    <string name="tamas_ba_kheirie">تماس با خیریه</string>
+    <string name="chekhabar">چخبر شعف؟</string>
+    <string name="khoroj">خروج</string>
+    <string name="mojodi_feli">موجودی فعلی</string>
+    <string name="mablaqe_delkhah">مبلغ دلخواه</string>
+    <string name="code">کد</string>
+    <string name="shomare_eshtebah">شماره خود را اشتباه وارد کردید؟</string>
+    <string name="darkhast_code">درخواست کد</string>
+    <string name="timer_sample">00:00</string>
+    <string name="shomare_hamrah_khod_ra_vared_konid">َشماره همراه خود را وارد کنید</string>
+    <string name="kife_pol">کیف پول</string>
+    <string name="web_site_address">www.shaaf-charity.ir</string>
+    <string name="web_site_address_app">www.arian.agency</string>
+    <string name="call_number">021-88504229</string>
+    <string name="call_number_app">021-91008696</string>
+    <string name="instagram_address">shaafcharity</string>
+    <string name="instagram_address_app">arian.agency</string>
+    <string name="telegram_address">\@shahidfatahian</string>
+    <string name="whatsup_address_app">+989029434382</string>
+    <string name="aparat_address">www.aparat.com/shaafcharity</string>
+    <string name="co_address_app">سهروردی شمالی خ هویزه مهماندوست پلاک ۸ واحد ۳</string>
+    <string name="email_address_app">info@arian.agency</string>
+
+
+</resources>

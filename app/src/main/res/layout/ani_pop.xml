@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey_semi_transparent"
+    android:translationZ="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/overall_margin"
+        android:layout_marginRight="@dimen/overall_margin"
+        android:background="@drawable/bg_pop_ani"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ly_rb_ani"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/radio_group_height"
+            android:orientation="horizontal">
+
+            <agency.arian.shaafcharity.Radio.PresetRadioGroup
+                android:id="@+id/rbg_payment_type_popup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/overall_margin"
+                android:layout_marginTop="@dimen/overall_margin"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:presetRadioCheckedId="@id/rb_type_from_wallet">
+
+                <agency.arian.shaafcharity.Radio.PresetValueButtonAni
+                    android:id="@+id/rb_type_online"
+                    style="@style/PresetLayoutButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:presetButtonUnitTextAni=""
+                    app:presetButtonValueTextAni="@string/online" />
+
+                <agency.arian.shaafcharity.Radio.PresetValueButton
+                    android:id="@+id/rb_type_from_wallet"
+                    style="@style/PresetLayoutButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:presetButtonUnitText=""
+                    app:presetButtonValueText="@string/wallet" />
+            </agency.arian.shaafcharity.Radio.PresetRadioGroup>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_mojodi_ani"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edt_height"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/toman_right_margin"
+                android:gravity="center"
+                android:text="@string/mojodi_feli"
+                android:textSize="@dimen/font_size_small" />
+
+            <TextView
+                android:id="@+id/tv_mojodi_feli_ani"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/tv_money_unit"
+                android:gravity="center"
+                android:text="@string/sample_wallet_value"
+                android:textSize="@dimen/font_size_small" />
+
+            <TextView
+                android:id="@+id/tv_money_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="@dimen/toman_right_margin"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/overall_margin"
+                android:text="@string/money_unit"
+                android:textSize="@dimen/font_size_small" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_pishnehadi_ani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <agency.arian.shaafcharity.Radio.PresetRadioGroup
+                android:id="@+id/rbg_money_popup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/overall_margin"
+                android:layout_marginTop="@dimen/overall_margin"
+                android:background="@drawable/field_bg_new"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                app:presetRadioCheckedId="@+id/rb_time_7">
+
+                <agency.arian.shaafcharity.Radio.PresetValueButton
+                    android:id="@+id/rb_money_10_popup"
+                    style="@style/PresetLayoutButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:presetButtonUnitText="@string/money_unit"
+                    app:presetButtonValueText="@string/money_suggestion_4" />
+
+                <agency.arian.shaafcharity.Radio.PresetValueButton
+                    android:id="@+id/rb_money_5_popup"
+                    style="@style/PresetLayoutButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:presetButtonUnitText="@string/money_unit"
+                    app:presetButtonValueText="@string/money_suggestion_3" />
+
+                <agency.arian.shaafcharity.Radio.PresetValueButton
+                    android:id="@+id/rb_money_2_popup"
+                    style="@style/PresetLayoutButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:presetButtonUnitText="@string/money_unit"
+                    app:presetButtonValueText="@string/money_suggestion_2" />
+
+
+                <agency.arian.shaafcharity.Radio.PresetValueButton
+                    android:id="@+id/rb_money_1_popup"
+                    style="@style/PresetLayoutButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:presetButtonUnitText="@string/money_unit"
+                    app:presetButtonValueText="@string/money_suggestion_1" />
+            </agency.arian.shaafcharity.Radio.PresetRadioGroup>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_mablaqDelkhah_ani"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edt_height">
+
+            <EditText
+                android:id="@+id/edt_mablaq_delkhah_pop_ani"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:hint="@string/mablaqe_delkhah"
+                android:inputType="number"
+                android:minEms="10"
+                android:maxLength="11"
+                android:textSize="@dimen/font_size_small" />
+
+            <ImageView
+                android:id="@+id/btn_minus_pop_ani"
+                android:layout_width="@dimen/edt_height"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:src="@drawable/ic_minus"
+                android:tint="@color/shaafRed" />
+
+            <ImageView
+                android:id="@+id/btn_add_pop_ani"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:src="@drawable/ic_add"
+                android:tint="@color/shaafGreen" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_ani_pop_up_pardakht"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_small_height"
+            android:layout_margin="@dimen/corner_items_margin"
+            android:background="@drawable/button_green_new"
+            android:text="@string/pardakht"
+            android:textColor="@color/Text"
+            android:textSize="@dimen/font_size_normal" />
+    </LinearLayout>
+
+
+</RelativeLayout>

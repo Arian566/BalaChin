@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/layout_bottom_margin"
+    android:orientation="vertical"
+    tools:context=".NEW.AboutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/corner_items_margin"
+        android:text="@string/tamas_ba_ma"
+        android:textColor="@color/Text"
+        android:textSize="@dimen/font_size_small"
+        android:translationZ="1dp" />
+
+    <Button
+        android:id="@+id/btn_back_tamas_ba_ma_app"
+        android:layout_width="@dimen/btn_ic_dimen"
+        android:layout_height="@dimen/btn_ic_dimen"
+        android:layout_margin="@dimen/corner_items_margin"
+        android:background="@drawable/ic_left_chevron"
+        android:backgroundTint="@color/Text"
+        android:textColor="@color/Text" />
+
+    <ImageView
+        android:id="@+id/img_header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="@dimen/img_header_scale_x"
+        android:scaleY="@dimen/img_header_scale_y"
+        android:src="@drawable/ic_app_08" />
+
+    <ImageView
+        android:id="@+id/img_header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleX="@dimen/img_header_scale_x"
+        android:scaleY="@dimen/img_header_scale_y"
+        android:src="@drawable/ic_app_09" />
+
+    <ImageView
+        android:id="@+id/img_child"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/child_height"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/img_child" />
+
+    <ImageView
+        android:id="@+id/img_app_logo_tamas_ba_ma"
+        android:layout_width="@dimen/shaaf_logo_small_dimen"
+        android:layout_height="@dimen/shaaf_logo_small_dimen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/shaaf_logo_top_margin"
+        android:src="@drawable/ic_logo_app_stroke" />
+
+    <LinearLayout
+        android:id="@+id/ly_call_tamas_ba_ma_app"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@id/img_app_logo_tamas_ba_ma"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_48sdp"
+        android:layout_marginEnd="@dimen/corner_items_margin"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/call_number_app"
+            android:textSize="@dimen/font_size_small" />
+
+        <ImageView
+            android:layout_width="@dimen/btn_ic_dimen_large"
+            android:layout_height="@dimen/btn_ic_dimen_large"
+            android:src="@drawable/ic_call_new"
+            android:tint="@color/shaafGreen" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_web_tamas_ba_ma_app"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@id/ly_call_tamas_ba_ma_app"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/about_lines_space"
+        android:layout_marginEnd="@dimen/corner_items_margin"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/web_site_address_app"
+            android:textSize="@dimen/font_size_small" />
+
+        <ImageView
+            android:layout_width="@dimen/btn_ic_dimen_large"
+            android:layout_height="@dimen/btn_ic_dimen_large"
+            android:src="@drawable/ic_web" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_instagram_tamas_ba_ma_app"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@id/ly_web_tamas_ba_ma_app"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/about_lines_space"
+        android:layout_marginEnd="@dimen/corner_items_margin"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/instagram_address_app"
+            android:textSize="@dimen/font_size_small" />
+
+        <ImageView
+            android:layout_width="@dimen/btn_ic_dimen_large"
+            android:layout_height="@dimen/btn_ic_dimen_large"
+            android:src="@drawable/ic_instagram" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_whatsup_tamas_ba_ma"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@id/ly_instagram_tamas_ba_ma_app"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/about_lines_space"
+        android:layout_marginEnd="@dimen/corner_items_margin"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/whatsup_address_app"
+            android:textSize="@dimen/font_size_small" />
+
+        <ImageView
+            android:layout_width="@dimen/btn_ic_dimen_large"
+            android:layout_height="@dimen/btn_ic_dimen_large"
+            android:src="@drawable/ic_whatsup" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_email_tamas_ba_ma"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_height"
+        android:layout_below="@id/ly_whatsup_tamas_ba_ma"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/about_lines_space"
+        android:layout_marginEnd="@dimen/corner_items_margin"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="@string/email_address_app"
+            android:textSize="@dimen/font_size_small" />
+
+        <ImageView
+            android:layout_width="@dimen/btn_ic_dimen_large"
+            android:layout_height="@dimen/btn_ic_dimen_large"
+            android:src="@drawable/ic_email_1" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
